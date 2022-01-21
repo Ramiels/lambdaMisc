@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "refined_lutus",
+  "ingredient": {
+    "item": "lambdamisc:deepslate_lutus_ore"
+  },
+  "result": "lambdamisc:refined_lutus",
+  "experience": 1.0,
+  "cookingtime": 200
+}

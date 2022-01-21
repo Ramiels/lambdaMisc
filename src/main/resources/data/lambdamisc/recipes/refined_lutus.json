@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lambdamisc:lutus_block"
+    }
+  ],
+  "result": {
+    "item": "lambdamisc:refined_lutus",
+    "count": 9
+  }
+}

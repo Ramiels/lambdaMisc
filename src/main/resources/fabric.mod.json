@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "lambdamisc",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "lambdaMisc",
+  "description": "Rubbish and stuff",
   "authors": [
-    "Me!"
+    "Ramiels"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/ramiels/lambdaMisc"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/lambdamisc/lambdamisc.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.ramiels.lambdaMisc.lambdaMisc"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "lambdamisc.mixins.json"
   ],
 
   "depends": {
