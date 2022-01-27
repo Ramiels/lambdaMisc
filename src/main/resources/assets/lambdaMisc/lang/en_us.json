@@ -2,7 +2,7 @@
   "item.lambdamisc.lutus_clump": "Lutus Clump",
   "item.lambdamisc.refined_lutus": "Refined Lutus",
   "item.lambdamisc.lutus_wand": "Lutus Wand",
-  "item.lambdamisc.transgender_dust": "Transsteel Dust",
+  "item.lambdamisc.transgender_dust": "Transteel Dust",
   "item.lambdamisc.transgender_ingot": "Transteel Ingot",
   "item.lambdamisc.blazebrick": "Blazebrick",
   "item.lambdamisc.helldust": "Helldust",
@@ -13,7 +13,7 @@
   "item.lambdamisc.copper_plate": "Copper Plate",
   "item.lambdamisc.iron_plate": "Iron Plate",
   "item.lambdamisc.gold_plate": "Gold Plate",
-  "item.lambdamisc.transgender_plate": "Transsteel Plate",
+  "item.lambdamisc.transgender_plate": "Transteel Plate",
   "item.lambdamisc.tempered_steel_plate": "Tempered Steel Plate",
   "item.lambdamisc.netherite_plate": "Netherite Plate",
 
@@ -26,7 +26,7 @@
   "itemGroup.lambdamisc.transgender": "Transteel Tech",
   "itemGroup.lambdamisc.lambdamisc": "lambdaMisc",
 
-  "item.lambdamisc.transgender_dust.tooltip": "Thanks for the idea, alex!",
+  "item.lambdamisc.transgender_dust.tooltip": "HRT but you become metals",
   "item.lambdamisc.blazebrick.tooltip": "A costly yet effective",
   "item.lambdamisc.blazebrick.tooltip2": "throwing weapon.",
   "item.lambdamisc.lutus_wand.tooltip": "Generates a brief yet powerful",
