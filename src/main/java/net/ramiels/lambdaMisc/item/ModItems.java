@@ -24,11 +24,23 @@ public class ModItems {
             new TransgenderDustItem(new FabricItemSettings().group(ModItemGroup.TRANS).rarity(Rarity.UNCOMMON)));
     public static final Item TRANSGENDER_INGOT = registerItem( "transgender_ingot",
             new TransgenderIngotItem(new FabricItemSettings().group(ModItemGroup.TRANS).rarity(Rarity.UNCOMMON)));
-    public static final Item BLAZEBRICK = registerItem( "blazebrick",
-            new BlazebrickItem(new FabricItemSettings().group(ModItemGroup.LAMBDAMISC).rarity(Rarity.UNCOMMON).maxCount(16)));
+    public static final Item TRANSGENDER_PLATE = registerItem( "transgender_plate",
+            new TransgenderIngotItem(new FabricItemSettings().group(ModItemGroup.TRANS).rarity(Rarity.UNCOMMON)));
     public static final Item TEMPERED_STEEL_INGOT = registerItem( "tempered_steel_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.LAMBDAMISC)));
+    public static final Item BLAZEBRICK = registerItem( "blazebrick",
+            new BlazebrickItem(new FabricItemSettings().group(ModItemGroup.LAMBDAMISC).rarity(Rarity.UNCOMMON).maxCount(16)));
     public static final Item HELLDUST = registerItem( "helldust",
+            new Item(new FabricItemSettings().group(ModItemGroup.LAMBDAMISC)));
+    public static final Item COPPER_PLATE = registerItem( "copper_plate",
+            new Item(new FabricItemSettings().group(ModItemGroup.LAMBDAMISC)));
+    public static final Item IRON_PLATE = registerItem( "iron_plate",
+            new Item(new FabricItemSettings().group(ModItemGroup.LAMBDAMISC)));
+    public static final Item GOLD_PLATE = registerItem( "gold_plate",
+            new Item(new FabricItemSettings().group(ModItemGroup.LAMBDAMISC)));
+    public static final Item TEMPERED_STEEL_PLATE = registerItem( "tempered_steel_plate",
+            new Item(new FabricItemSettings().group(ModItemGroup.LAMBDAMISC)));
+    public static final Item NETHERITE_PLATE = registerItem( "netherite_plate",
             new Item(new FabricItemSettings().group(ModItemGroup.LAMBDAMISC)));
 
 
