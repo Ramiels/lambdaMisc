@@ -9,6 +9,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.ramiels.lambdaMisc.item.ModItemGroup;
 import net.ramiels.lambdaMisc.lambdaMisc;
 
 public class ModBlocks {
@@ -16,9 +17,11 @@ public class ModBlocks {
     public static final Block LUTUS_BLOCK = registerBlock("lutus_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6.0f).requiresTool().luminance(12).emissiveLighting((state, world, pos) -> true)), ItemGroup.MISC);
     public static final Block LUTUS_ORE = registerBlock("lutus_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool().luminance(9)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool().luminance(9)), ModItemGroup.LUTUS);
     public static final Block DEEPSLTATE_LUTUS_ORE = registerBlock("deepslate_lutus_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool().luminance(9)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool().luminance(9)), ModItemGroup.LUTUS);
+    public static final Block TRANSGENDER_ORE = registerBlock("transgender_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5.0f).requiresTool()), ModItemGroup.TRANS);
 
 
 

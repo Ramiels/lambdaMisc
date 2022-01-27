@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  c",
+        " Ii",
+        "I  "
+    ],
+    "key": {
+        "c": {
+            "item": "lambdamisc:refined_lutus"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "i": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "lambdamisc:lutus_wand",
+        "count": 1
+    }
+}

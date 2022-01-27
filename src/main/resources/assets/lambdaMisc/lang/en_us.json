@@ -1,9 +1,25 @@
 {
   "item.lambdamisc.lutus_clump": "Lutus Clump",
   "item.lambdamisc.refined_lutus": "Refined Lutus",
-
+  "item.lambdamisc.lutus_wand": "Lutus Wand",
+  "item.lambdamisc.transgender_dust": "Transgender Dust",
+  "item.lambdamisc.transgender_ingot": "Transgender Ingot",
+  "item.lambdamisc.blazebrick": "Blazebrick",
+  "item.lambdamisc.helldust": "Helldust",
+  "item.lambdamisc.tempered_steel_ingot": "Tempered Steel Ingot",
 
   "block.lambdamisc.lutus_block": "Lutus Block",
   "block.lambdamisc.lutus_ore": "Lutus Ore",
-  "block.lambdamisc.deepslate_lutus_ore": "Deepslate Lutus Ore"
+  "block.lambdamisc.deepslate_lutus_ore": "Deepslate Lutus Ore",
+  "block.lambdamisc.transgender_ore": "Transgender Ore",
+
+  "itemGroup.lambdamisc.lutus": "Lutus Tech",
+  "itemGroup.lambdamisc.transgender": "Transgender Tech",
+  "itemGroup.lambdamisc.lambdamisc": "lambdaMisc",
+
+  "item.lambdamisc.transgender_dust.tooltip": "Thanks for the idea, alex!",
+  "item.lambdamisc.blazebrick.tooltip": "A costly yet effective",
+  "item.lambdamisc.blazebrick.tooltip2": "throwing weapon.",
+  "item.lambdamisc.lutus_wand.tooltip": "Generates a brief yet powerful",
+  "item.lambdamisc.lutus_wand.tooltip2": "repulsive force backwards."
 }

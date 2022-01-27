@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "lambdamisc:item/lutus/lutus_wand"
+  }
+}
