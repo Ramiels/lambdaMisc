@@ -15,7 +15,9 @@ import net.ramiels.lambdaMisc.lambdaMisc;
 public class ModBlocks {
 
     public static final Block LUTUS_BLOCK = registerBlock("lutus_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6.0f).requiresTool().luminance(12).emissiveLighting((state, world, pos) -> true)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6.0f).requiresTool().luminance(12).emissiveLighting((state, world, pos) -> true)), ModItemGroup.LUTUS);
+    public static final Block STEEL_BLOCK = registerBlock("steel_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6.0f).requiresTool()), ItemGroup.MISC);
     public static final Block LUTUS_ORE = registerBlock("lutus_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool().luminance(9)), ModItemGroup.LUTUS);
     public static final Block DEEPSLTATE_LUTUS_ORE = registerBlock("deepslate_lutus_ore",

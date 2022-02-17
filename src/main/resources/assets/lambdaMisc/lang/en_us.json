@@ -7,6 +7,11 @@
   "item.lambdamisc.blazebrick": "Blazebrick",
   "item.lambdamisc.helldust": "Helldust",
   "item.lambdamisc.tempered_steel_ingot": "Tempered Steel Ingot",
+  "item.lambdamisc.abs_dust": "ABS dust",
+  "item.lambdamisc.abs_sheet": "ABS sheet",
+  "item.lambdamisc.glass_beaker": "Glass Beaker",
+  "item.lambdamisc.styrene_beaker": "Beaker of Styrene",
+  "item.lambdamisc.polybutadiene": "Polybutadiene Rubber",
 
 
 
@@ -17,18 +22,24 @@
   "item.lambdamisc.tempered_steel_plate": "Tempered Steel Plate",
   "item.lambdamisc.netherite_plate": "Netherite Plate",
 
+
   "block.lambdamisc.lutus_block": "Lutus Block",
+  "block.lambdamisc.steel_block": "Steel Block",
   "block.lambdamisc.lutus_ore": "Lutus Ore",
   "block.lambdamisc.deepslate_lutus_ore": "Deepslate Lutus Ore",
   "block.lambdamisc.transgender_ore": "Transteel Ore",
+
 
   "itemGroup.lambdamisc.lutus": "Lutus Tech",
   "itemGroup.lambdamisc.transgender": "Transteel Tech",
   "itemGroup.lambdamisc.lambdamisc": "lambdaMisc",
 
+
   "item.lambdamisc.transgender_dust.tooltip": "HRT but you become metals",
   "item.lambdamisc.blazebrick.tooltip": "A costly yet effective",
   "item.lambdamisc.blazebrick.tooltip2": "throwing weapon.",
-  "item.lambdamisc.lutus_wand.tooltip": "Generates a brief yet powerful",
-  "item.lambdamisc.lutus_wand.tooltip2": "repulsive force backwards."
+  "item.lambdamisc.lutus_wand.tooltip": "§7Propells the user when they\n press the [§cUse§7] key\n\n§8Our research on lutus has \nlead to the discovery of propulsive \ntech, by channeling it's \npower on an iron rod it can \nbe used to generate a brief \nyet powerful repulsive force backwards.",
+
+
+  "item.lambdamisc.default.tooltip": "§8Hold [§l§4Shift§8] for info"
 }

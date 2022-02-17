@@ -1,6 +1,7 @@
 package net.ramiels.lambdaMisc.item.custom;
 
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.util.math.Vector3d;
 import net.minecraft.entity.EquipmentSlot;
@@ -23,8 +24,13 @@ public class LutusWandItem extends Item {
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
 
-        tooltip.add( new TranslatableText("item.lambdamisc.lutus_wand.tooltip").formatted(Formatting.DARK_GRAY) );
-        tooltip.add( new TranslatableText("item.lambdamisc.lutus_wand.tooltip2").formatted(Formatting.DARK_GRAY) );
+        if(Screen.hasShiftDown()) {
+            tooltip.add( new TranslatableText("item.lambdamisc.lutus_wand.tooltip").formatted(Formatting.DARK_GRAY) );
+        } else {
+            tooltip.add( new TranslatableText("item.lambdamisc.default.tooltip"));
+        }
+
+
     }
 
     @Override
